@@ -17,6 +17,13 @@
 
 local slang = {}
 
+local function sidequest(yapping)
+if yapping == "info" then
+    print("Slang Module by Coderxaron.")
+    return "Slang Module by Coderxaron."
+end
+end
+
 local Yap = print
 local Chill = wait
 local Truerizz = true
@@ -34,5 +41,5 @@ slang.Clock = os.clock
 slang.Time = os.time
 slang.Date = os.date
 slang.SigmaInOhio = sigmainohio
-
+slang.sidequest = sidequest
 return slang
