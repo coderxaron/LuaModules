@@ -21,8 +21,32 @@ local function sidequest(yapping)
 if yapping == "info" then
     print("Slang Module by Coderxaron.")
     return "Slang Module by Coderxaron."
+else
+    print("Module aint Moduling")
+    return "Module aint Moduling"
 end
+
 end
+
+local function damn(yapping)
+    local t = yapping
+    local i = Instance.new("Folder")
+    local Coolplace = game:GetService("ReplicatedStorage")
+    i.Name = t 
+    i.Parent = Coolplace
+    return i
+end
+
+local function snatch(yapping)
+    local Coolplace = game:GetService("ReplicatedStorage")
+    return Coolplace:FindFirstChild(yapping)
+end
+
+--[[
+local function ghost(yapping)
+    obj:Destroy()
+end
+]]
 
 local Yap = print
 local Chill = wait
@@ -42,4 +66,7 @@ slang.Time = os.time
 slang.Date = os.date
 slang.SigmaInOhio = sigmainohio
 slang.sidequest = sidequest
+slang.damn = damn
+slang.snatch = snatch
+--slang.ghost = ghost
 return slang
