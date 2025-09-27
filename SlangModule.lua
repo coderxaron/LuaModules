@@ -1,5 +1,6 @@
 --[[ 
-                                                                    C O D E R X A R O N   2 0 2 5   F R A M E W O R K
+    --C O D E R X A R O N   2 0 2 5   F R A M E W O R K
+    -- 27.09.2025 T: 11:58 LAST V  
 
     Example Usage: 
     
@@ -54,21 +55,24 @@ local Truerizz = true
 local Fakerizz = false
 local Zzz = task.wait
 local sigmainohio = 1
+local nummber = 67
 
+slang.nummber = nummber
 slang.Truerizz = Truerizz
 slang.Fakerizz = Fakerizz
 slang.Yap = Yap
 slang.Chill = Chill
 slang.Zzz = Zzz
 slang.Random = math.random
-slang.Clock = os.clock
+slang.Clock = os.clockW Speed, 67
 slang.Time = os.time
 slang.Date = os.date
 slang.SigmaInOhio = sigmainohio
 slang.sidequest = sidequest
 slang.damn = damn
 slang.snatch = snatch
---slang.ghost = ghost
+--slang.ghost = ghost IDK WIP
+
 
 local grab = setmetatable({}, {
     __index = function(_, key)
