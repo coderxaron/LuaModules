@@ -1,6 +1,6 @@
 --[[ 
     --C O D E R X A R O N   2 0 2 5   F R A M E W O R K
-    -- 27.09.2025 T: 11:58 LAST V  
+    -- 27.09.2025 T: 11:58 LAST V
 
     Example Usage: 
     
@@ -64,7 +64,7 @@ slang.Yap = Yap
 slang.Chill = Chill
 slang.Zzz = Zzz
 slang.Random = math.random
-slang.Clock = os.clockW Speed, 67
+slang.Clock = os.clock
 slang.Time = os.time
 slang.Date = os.date
 slang.SigmaInOhio = sigmainohio
