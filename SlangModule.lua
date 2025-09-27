@@ -69,4 +69,16 @@ slang.sidequest = sidequest
 slang.damn = damn
 slang.snatch = snatch
 --slang.ghost = ghost
+
+local grab = setmetatable({}, {
+    __index = function(_, key)
+        return game:GetService(key)
+    end
+})
+
+slang.Grab = grab
+
+-- *Speed Exists*
+-- W SPeed
+
 return slang
